@@ -112,7 +112,7 @@ class DataSet:
         self.most = {k: v for k, v in self.most.items() if v >= 0.01}
 
     def show(self):
-        print('Динамика уровня зарплат по годам:', self.salary_dynamic)
+        print('Динамика lelvels зарплат по годам:', self.salary_dynamic)
         print('Динамика количества вакансий по годам:', self.count_dynamic)
         print('Динамика уровня зарплат по годам для выбранной профессии:', self.salary_prof_dynamic)
         print('Динамика количества вакансий по годам для выбранной профессии:', self.prof_count)
